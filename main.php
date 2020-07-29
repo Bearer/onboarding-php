@@ -4,6 +4,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use Symfony\Component\Dotenv\Dotenv;
 use Symfony\Component\HttpClient\HttpClient;
+use Symfony\Component\HttpClient\Exception\TransportException;
 
 $dotenv = new Dotenv();
 $dotenv->load(__DIR__ . '/.env');
@@ -103,6 +104,10 @@ $client
 
 echo("-- Sending API Calls to non existing API --\n");
 
-$client
-  ->request('GET', 'https://foo.bar/status/200')
-  ->getContent(false);
+try {
+  $client
+    ->request('GET', 'https://foo.bar/status/200')
+    ->getContent(false);
+} catch (TransportException $e) {
+echo('test');
+}
