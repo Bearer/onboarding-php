@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "96ee60de76544433e833e274c5e81c0d",
+    "content-hash": "818e47f32d4bcf2874aea9b875900d35",
     "packages": [
         {
             "name": "bearer/php-agent",
-            "version": "1.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Bearer/php-agent.git",
-                "reference": "5dc6e84074d005e6e91bb92c7cb0e3ea90d8763f"
+                "reference": "9b4fedb9feb98c5fb29475cd5e9978c1b25bcd1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Bearer/php-agent/zipball/5dc6e84074d005e6e91bb92c7cb0e3ea90d8763f",
-                "reference": "5dc6e84074d005e6e91bb92c7cb0e3ea90d8763f",
+                "url": "https://api.github.com/repos/Bearer/php-agent/zipball/9b4fedb9feb98c5fb29475cd5e9978c1b25bcd1a",
+                "reference": "9b4fedb9feb98c5fb29475cd5e9978c1b25bcd1a",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 }
             ],
             "description": "Bearer PHP Agent",
-            "time": "2020-07-29T09:40:26+00:00"
+            "time": "2020-07-29T17:32:51+00:00"
         },
         {
             "name": "opis/closure",
