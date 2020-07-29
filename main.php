@@ -108,6 +108,4 @@ try {
   $client
     ->request('GET', 'https://foo.bar/status/200')
     ->getContent(false);
-} catch (TransportException $e) {
-echo('test');
-}
+} catch (TransportException $e) {}
