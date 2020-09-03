@@ -15,6 +15,9 @@ $dotenv->load(__DIR__ . '/.env');
 
 $client = HttpClient::create();
 
+echo("-- Waiting for initialization --\n");
+sleep(10);
+
 
 // Postman Echo
 
