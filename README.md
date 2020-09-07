@@ -10,16 +10,6 @@ This sample application allows you to try out [Bearer](https://bearer.sh) before
 In addition, you will need following PHP extensions:
 - [cURL](https://www.php.net/manual/en/book.curl.php)
 - [JSON](https://www.php.net/book.json)
-- [Runkit7](https://www.php.net/manual/en/book.runkit7.php)
-
-## Configuring runkit7
-
-To allow the Bearer agent to intercept calls to the cURL library, you must set
-the following option in your `php.ini` file:
-
-```
-runkit.internal_override = true
-```
 
 ## Installation
 
